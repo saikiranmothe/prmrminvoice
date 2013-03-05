@@ -1,6 +1,5 @@
 
 
-
 git clone git@github.com:saikiranmothe/prmrminvoice.git
 
 
@@ -40,3 +39,18 @@ You'll need to generate the assets for Active_admin:
 Now, run `rails server` and 
 
 point your server to [http://localhost:3000](http://localhost:3000) 
+
+#############################################
+
+For Admin Interface
+
+http://localhost:3000/admin 
+
+login : j.nikhil0041@gmail.com
+
+password : adminadmin 
+
+
+
+##############################################
+
