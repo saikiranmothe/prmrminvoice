@@ -1,18 +1,23 @@
-
 git clone git@github.com:saikiranmothe/prmrminvoice.git
 
 And run the following commands:
 
 if  you use sqlite3 
     1.Un comment gem 'sqlite3' in Gemfile.
+    +++++++++++++++++++++++++++++++++++++
     2.rename database.yml.sqlite3 to database.yml 
+    ++++++++++++++++++++++++++++++++++++++++
     3.un comment gem 'pg' in Gemfile.
+    ++++++++++++++++++++++++++++++++++++++++
 
     bundle install
-    
+        ++++++++++++++++++++++++++++++++++++++++
+
     rake db:schema:load # or
-    
+        ++++++++++++++++++++++++++++++++++++++++
+
     you can run rake db:migrate
+    ++++++++++++++++++++++++++++++++++++++++
 
 You're going to need to create a user on the database using `irb`:
 
