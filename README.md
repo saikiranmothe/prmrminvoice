@@ -2,7 +2,6 @@
 
 
 
-
 git clone git@github.com:saikiranmothe/prmrminvoice.git
 
 
@@ -32,7 +31,8 @@ if  you use sqlite3
 You're going to need to create a user on the database using `irb`:
 
     rails console
-    >> AdminUser.create! :email => "admin@admin.org", :password => "admin", :password_confirmation => "admin", :admin => true
+    >> AdminUser.create! :email => "j.nikhil0041@gmail.com", :password => "adminadmin", :password_confirmation => "adminadmin", :admin => true
+
     
 You'll need to generate the assets for Active_admin:
 
