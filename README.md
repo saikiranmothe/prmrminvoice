@@ -1,15 +1,14 @@
-Active Invoices is a very simple Ruby on Rails invoicing application, built using the amazing [active_admin][1] gem.
 
-## Installation & Usage
 
-Clone the repository:
+git clone git@github.com:saikiranmothe/prmrminvoice.git
 
-    git clone https://github.com/ianmurrays/active_invoices
-  
 And run the following commands:
 
     bundle install
-    rake db:schema:load # or you can run rake db:migrate
+    
+    rake db:schema:load # or
+    
+    you can run rake db:migrate
 
 You're going to need to create a user on the database using `irb`:
 
@@ -20,6 +19,6 @@ You'll need to generate the assets for Active_admin:
 
     rails g active_admin:assets
 
-Now, run `rails server` and point your server to [http://localhost:3000](http://localhost:3000) and try out your new installation.
+Now, run `rails server` and 
 
-[1]: https://github.com/gregbell/active_admin
+point your server to [http://localhost:3000](http://localhost:3000) 
