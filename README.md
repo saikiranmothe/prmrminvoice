@@ -1,7 +1,6 @@
 
 
 
-
 git clone git@github.com:saikiranmothe/prmrminvoice.git
 
 
@@ -16,7 +15,7 @@ if  you use sqlite3
     2.rename database.yml.sqlite3 to database.yml 
 
     
-    3.un comment gem 'pg' in Gemfile.
+    3.Comment gem 'pg' in Gemfile.
 
 
     bundle install
